@@ -44,12 +44,12 @@ export function BikeRentalCard({ bike, onContact }: BikeRentalCardProps) {
 
         <div className="space-y-1">
           <div className="flex items-baseline gap-2">
-            <span className="text-lg font-bold text-primary">₹{bike.dailyRate}</span>
+            <span className="text-lg font-bold text-primary">Rs{bike.dailyRate}</span>
             <span className="text-xs text-muted-foreground">/day</span>
           </div>
           {bike.weeklyRate && (
             <div className="text-xs text-muted-foreground">
-              ₹{bike.weeklyRate}/week
+              Rs{bike.weeklyRate}/week
             </div>
           )}
         </div>

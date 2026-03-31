@@ -40,7 +40,7 @@ export function RoommateCard({ profile, matchPercentage, onConnect }: RoommateCa
               </h3>
               {profile.budget && (
                 <p className="text-sm text-muted-foreground">
-                  Budget: ₹{profile.budget.toLocaleString()}/month
+                  Budget: Rs{profile.budget.toLocaleString()}/month
                 </p>
               )}
             </div>

@@ -283,7 +283,7 @@ export default function PropertyDetailsPage() {
                 {property.deposit && (
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Deposit</div>
-                    <div className="font-medium">₹{property.deposit.toLocaleString()}</div>
+                    <div className="font-medium">Rs{property.deposit.toLocaleString()}</div>
                   </div>
                 )}
                 <div className="sm:col-span-2">
@@ -341,7 +341,7 @@ export default function PropertyDetailsPage() {
               <div className="space-y-6">
                 <div>
                   <div className="text-3xl font-bold text-primary mb-1">
-                    ₹{property.rent.toLocaleString()}
+                    Rs{property.rent.toLocaleString()}
                   </div>
                   <div className="text-sm text-muted-foreground">per month</div>
                 </div>
@@ -356,7 +356,7 @@ export default function PropertyDetailsPage() {
                   {property.deposit && (
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-muted-foreground">Security Deposit</span>
-                      <span className="font-medium">₹{property.deposit.toLocaleString()}</span>
+                      <span className="font-medium">Rs{property.deposit.toLocaleString()}</span>
                     </div>
                   )}
                 </div>

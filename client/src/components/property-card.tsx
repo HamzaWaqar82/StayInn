@@ -88,7 +88,7 @@ export function PropertyCard({ property, onToggleShortlist, isShortlisted }: Pro
         <div className="flex items-end justify-between pt-2 border-t">
           <div>
             <div className="text-2xl font-bold text-primary">
-              ₹{property.rent.toLocaleString()}
+              Rs{property.rent.toLocaleString()}
             </div>
             <div className="text-xs text-muted-foreground">per month</div>
           </div>

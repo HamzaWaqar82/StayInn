@@ -77,7 +77,7 @@ export function SearchFilters({ onFilterChange }: SearchFiltersProps) {
 
         <div>
           <Label className="mb-4 block">
-            Rent Range: ₹{rentRange[0].toLocaleString()} - ₹{rentRange[1].toLocaleString()}
+            Rent Range: Rs{rentRange[0].toLocaleString()} - Rs{rentRange[1].toLocaleString()}
           </Label>
           <Slider
             value={rentRange}

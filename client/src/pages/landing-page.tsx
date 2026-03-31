@@ -231,7 +231,7 @@ export default function LandingPage() {
                   <Bike className="w-24 h-24 text-muted-foreground" />
                 </div>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-2xl font-bold text-primary">₹150</span>
+                  <span className="text-2xl font-bold text-primary">Rs150</span>
                   <span className="text-muted-foreground">/day</span>
                 </div>
                 <Badge>Available Now</Badge>

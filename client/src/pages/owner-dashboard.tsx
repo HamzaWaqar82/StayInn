@@ -168,7 +168,7 @@ export default function OwnerDashboard() {
                         </div>
                         <div>
                           <span className="text-muted-foreground">Rent:</span>{" "}
-                          <span className="font-medium">₹{property.rent.toLocaleString()}/mo</span>
+                          <span className="font-medium">Rs{property.rent.toLocaleString()}/mo</span>
                         </div>
                         <div>
                           <span className="text-muted-foreground">Rooms:</span>{" "}
